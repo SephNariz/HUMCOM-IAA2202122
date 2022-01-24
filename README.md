@@ -1,3 +1,3 @@
 # HUMCOM1-IAA2
-HUMCOM-IAA2202122
+HUMCOM1-IAA2
 Human Computer Interaction IAA2

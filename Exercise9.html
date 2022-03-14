@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>Exercise9</title>
+    </head>
+      <meta charset="UTF-8">
+      <meta name="Introduction to HTMLHTML Elements:" content="Forms">
+      <meta name="Lesson8" content="Types of forms codes">
+      <meta name="Doyaoen,Joseph N." content="Sign UP">
+    
+<style>
+body {
+      background-image: url("Thisback.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+ 
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+
+</style>
+<body>
+
+    <body>
+        <center>
+        <font size="2pt">
+        <h1>Sign Up Now!</h1>
+        </font>
+        </center> 
+<h4>Fields marked (*) are required</h4>
+<HR>
+    <form action="">
+     <fieldset>
+      <legend>Your Details</legend>
+      
+      <label for="fname">First name*:</label>
+      <input type="text" id="fname" name="fname"
+      title="" placeholder="John" required><br>
+
+      <label for="lname">Last name*:</label>
+      <input type="text" id="lname" name="lname"
+      title="" placeholder="Dela Cruz" required><br>
+
+      <label for="birthday">Birthday*:</label>
+      <input type="date" id="birthday" name="birthday" required><br> 
+        <!--Not needed to put some PLaceholder-->
+      <label for="Age"> Age:                </label>
+      <input type="numer" size="" min=0 max=100 name="Age"
+      title="" placeholder="18+" required/><br />
+
+      <label for="email">Email*:</label>
+      <input type="email" id="email" name="email"  
+      title="" placeholder="JohnDelaCruz123@email.com" required> <br>
+      
+      <label for="Contact Number">Contact Number*: </label>
+      <input type="tel" size="15" max="" name="Contact Number" title="" 
+      placeholder="(+00)000-000-0000" required ><br/>
+
+     </fieldset>
+    </form>
+    <br>
+
+    
+
+<form>
+    <fieldset>    
+    <legend>Delivery Address></legend>
+
+    <label for="Address1:">Address*:</label>
+    <input type="text" id="fname" name="Address"
+    title="" placeholder="House/Apt# and street" required><br>
+
+    <label for="District/Barangay">District/Barangay*:</label>
+    <input type="text" id="Dis/Bar" name="District/Barangay"
+    title="" placeholder="@Barangay" required><br>
+
+    <label for="City">City*:</label>
+    <input list="Citys">
+    <datalist id="Citys">
+      <option value="Baguio">
+      <option value="Puerto Princesa">
+      <option value="Lucena">
+      <option value="Angeles">
+      <option value="Olongapo">
+      <option value="Quezon">
+      <option value="Las Piñas">
+      <option value="Makati">
+      <option value="Malabon">
+      <option value="Manila">
+    </datalist>
+  <br>
+
+  <label for="Postal Code">Postal Code:</label>
+  <input type="text" id="PCode" name="Postal Code"
+  title="" placeholder="####" required><br>
+
+  <label for="Province">Province*:</label>
+  <input list="Provinces">
+  <datalist id="Provinces">
+    <option value="Benguet">
+    <option value="Palawan">
+    <option value="Cavite">
+    <option value="Pampanga">
+    <option value="Zambales">
+    <option value="Kalinga">
+    <option value="Ifugao">
+    <option value="Catanduanes">
+    <option value="Camarines Sur">
+    <option value="Albay">
+  </datalist>
+<br>
+    </fieldset>
+</form>
+<br>
+
+<form>
+    <fieldset>
+        <legend>Membership Information</legend>
+
+    <label for="Username">Username*:</label>
+    <input type="text" id="UserN" name="Username"
+    title="" placeholder="John123DelaCruz" required><br>
+
+    <label for="Password">Password*:</label>
+    <input type="text" id="PassW" name="Password"
+    title="" placeholder="#@DelaCruz" required><br>
+
+    <label for="Bachelor's Degrees">Bachelor's Degrees*:</label>
+    <input list="BDegrees">
+    <datalist id="BDegrees">
+      <option value="Information Technology">
+      <option value="Computer Science">
+      <option value="Information Science">
+      <option value="Systems & Network Administration">    
+      <option value="Software Engineering">
+      <option value="Computer Engineering">
+      <option value="Cybersecurity.">
+    </datalist>
+    <br>
+
+    <label for="Magazine Subscriptions">Magazine Subscriptions:</label>
+    <input list="Magazines">
+    <datalist id="Magazines">
+      <option value="Filmfare Magazine">
+      <option value="India Today Magazine">
+      <option value="TIME Magazine">
+      <option value="The Economist Magazine">    
+      <option value="Outlook Magazine">
+      <option value="Forbes India Magazine">
+      <option value="Femina Magazine">
+    </datalist>
+    <label for="Others">Others:</label>
+    <input type="text" id="Others" name="Others" title="">
+  <br>  
+
+            <input type="submit" onclick="alert('Thanks, again!')" value=" Submit Now! "><br>
+            <input type="reset" onclick="alert('Reset Now!')" value=" Reset "><br>
+            <input type="button" onclick="alert('Thank You!')" value="Click Me!"><br>
+    </fieldset>
+
+
+</form>
+
+
+    </body>
+</html>
+
+
